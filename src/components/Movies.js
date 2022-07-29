@@ -4,7 +4,7 @@ import { movies } from "../data";
 function Movies() {
   const movieList = movies.map((movie) => (
     <div key={movie.title}>
-      <h1>{movie.title}</h1>
+      {movie.title}
       <p>Time : {movie.time}min</p>
 
       <ul>
@@ -17,6 +17,7 @@ function Movies() {
 
   return (
     <div>
+      {/*{code here}*/}
       <h1>Movies Page</h1>
       {movieList}
     </div>
