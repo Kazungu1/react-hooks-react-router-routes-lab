@@ -9,7 +9,7 @@ import Movies from "./Movies";
 function App() {
   return (
     <div>
-      {/*{code here}*/}
+     
       <NavBar />
       <Switch>
         <Route exact path="/movies">
